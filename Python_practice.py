@@ -6,4 +6,13 @@ print(Add)
 counties = ['Arapahoes', 'Denver', 'Jefferson']
 if counties[1] == 'Denver':
     print(counties[1])
-    
+
+# Determine the temperature outside
+temperature = int(input('what is the temperature outside'))
+
+
+if temperature > 80: # the temperature is in degree Fahrenheit.
+    print('Turn on the AC.')
+
+else:
+    print('Open the window.')
