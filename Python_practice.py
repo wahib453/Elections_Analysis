@@ -82,3 +82,16 @@ if not (x > y):
     print('true')
 else:
     print('false')
+
+# practice with membership and logical operators
+if 'Arapahoes' in counties and 'El Paso' in counties:
+    print('Arapahoes and El Paso are in the list of counties.')
+else:
+    print('Arapahoes or El Paso is not in the list of counties.')
+
+# practice with logical operator: or 
+counties = ['Arapahoes', 'Denver', 'Jefferson']
+if 'Arapahoes' in counties or 'El Paso' in counties:
+    print('Arapahoes or El Paso are in the list of counties.')
+else:
+    print('Arapahoes and El Paso are not in the list of counties.')
