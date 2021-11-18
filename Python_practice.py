@@ -95,3 +95,55 @@ if 'Arapahoes' in counties or 'El Paso' in counties:
     print('Arapahoes or El Paso are in the list of counties.')
 else:
     print('Arapahoes and El Paso are not in the list of counties.')
+
+# practice using WHILE loop
+x = 0
+while x <= 5:
+    print(x)
+    x = x + 1
+
+# practice using FOR loop
+for county in counties:
+    print(county)
+
+# practice using the built-in function, range(), with FOR loop
+numbers = [0,1,2,3,4,5]
+for num in numbers:
+    print(num)
+
+# First alternatively
+for num in range(5):
+    print(num)
+
+# Second alternative
+for i in range(len(counties)):
+    print(counties[i])
+
+# practice using for loop to iterate through a dictionary.
+counties_dic = {'Arapahoes': 422829, 'Denver': 463353, 'Jefferson': 432438}
+for county in counties_dic:
+    print(county)
+
+# Alternatively
+counties_dic = {'Arapahoes': 422829, 'Denver': 463353, 'Jefferson': 432438}
+for county in counties_dic.keys():
+    print(county)
+
+# get the values
+counties_dic = {'Arapahoes': 422829, 'Denver': 463353, 'Jefferson': 432438}
+for value in counties_dic.values():
+    print(value)
+
+# Alternatively
+counties_dic = {'Arapahoes': 422829, 'Denver': 463353, 'Jefferson': 432438}
+for county in counties_dic:
+    print(counties_dic[county])
+
+# Get Each Dictionary in a List of Dictionaries
+voting_data = [{'county':'Arapahoes', 'registered_voters': 422829}, 
+                {'county':'Denver', 'registered_voters':463353}, 
+                {'county':'Jefferson', 'registered_voters':432438}]
+
+for county_dict in voting_data:
+    print(counties_dic)
+
