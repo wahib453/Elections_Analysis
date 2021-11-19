@@ -139,6 +139,11 @@ counties_dic = {'Arapahoes': 422829, 'Denver': 463353, 'Jefferson': 432438}
 for county in counties_dic:
     print(counties_dic[county])
 
+# Skill drill
+counties_dic = {'Arapahoes': 422829, 'Denver': 463353, 'Jefferson': 432438}
+for county, voters in counties_dic.items():
+    print(county + ' County has ' + str(voters) + ' registered voters. ')
+
 # Get Each Dictionary in a List of Dictionaries
 voting_data = [{'county':'Arapahoes', 'registered_voters': 422829}, 
                 {'county':'Denver', 'registered_voters':463353}, 
