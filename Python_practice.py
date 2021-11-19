@@ -157,3 +157,12 @@ voting_data = [{'county':'Arapahoes', 'registered_voters': 422829},
 for county_dict in voting_data:
     print(counties_dic)
 
+# Multiline F-Strings practice
+candidate_votes = int(input('how many votes did the candidate get in hte election? '))
+total_votes = int(input('what is the total number of votes in the election? '))
+message_to_candidate = (
+    f'You received {candidate_votes} number of votes.'
+    f'The total number of votes in the election was {total_votes}.'
+    f'You received {candidate_votes / total_votes * 100} % of the total votes.'
+)
+print(message_to_candidate)
