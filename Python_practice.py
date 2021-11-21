@@ -139,7 +139,7 @@ counties_dic = {'Arapahoes': 422829, 'Denver': 463353, 'Jefferson': 432438}
 for county in counties_dic:
     print(counties_dic[county])
 
-# Skill drill
+# Skill drill 1
 counties_dic = {'Arapahoes': 422829, 'Denver': 463353, 'Jefferson': 432438}
 for county, voters in counties_dic.items():
     print(county + ' County has ' + str(voters) + ' registered voters. ')
@@ -166,3 +166,28 @@ message_to_candidate = (
     f'You received {candidate_votes / total_votes * 100} % of the total votes.'
 )
 print(message_to_candidate)
+
+# 3.2.11: Skill drill 2
+counties_dic = {'Arapahoes': 422829, 'Denver': 463353, 'Jefferson': 432438}
+for county, voters in counties_dic.items():
+    print(f'{county} County has {voters} registered voters.')
+
+# 3.2.11: Skill drill 3
+voting_data = [{'county': 'Arapahoes', 'registered_voters': 422829}, {'county': 'Denver', 'registered_voters': 463353}, {'county': 'Jefferson', 'registered_voters': 432438}]
+for county_dic in voting_data:
+    for county, voters in counties_dic.items():
+        print(f'{county} County has {voters} registered voters.')
+
+# 3.4.1: Python Dependencies, Modules, and Packages
+# determine today's time using datetime module
+# Import the datetime class from the datetime module.
+import datetime
+# Use the now() attribute on the datetime class to get the present time.
+now = datetime.datetime.now()
+# print the present time.
+print('The time now is ', now )
+
+
+import datetime
+dir(datetime)
+
