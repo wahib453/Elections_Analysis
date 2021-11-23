@@ -1,1 +1,5 @@
-Hello world. welcome to Dallas, TX. Arapahoes, Denver, Jefferson.
+Hello world.
+welcome to Dallas, TX.
+Arapahoes
+Denver
+Jefferson

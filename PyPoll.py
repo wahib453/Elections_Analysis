@@ -44,7 +44,7 @@ file_to_save = os.path.join('Analysis', 'election_analysis.txt')
 outfile = open(file_to_save, 'w')
 
 # write some data to the file
-outfile.write('Hello world.')
+outfile.write('Hello world.\n')
 
 # Close the file
 outfile.close()
@@ -59,5 +59,5 @@ file_to_save = os.path.join('Analysis', 'election_analysis.txt')
 # using the with statement open the file as a text file.
 with open(file_to_save, 'a') as outfile:
      # write some data to the file
-     outfile.write(' welcome to Dallas, TX.')
-     outfile.write(' Arapahoes, Denver, Jefferson.')
+     outfile.write('welcome to Dallas, TX.\n')
+     outfile.write('Arapahoes\nDenver\nJefferson\n')
