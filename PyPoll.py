@@ -82,4 +82,4 @@ with open(file_to_load) as election_data:
 
     # print each row in the csv file.
     for row in file_reader:
-         print(row)
+         print(row[0])
