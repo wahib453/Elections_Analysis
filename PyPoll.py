@@ -57,7 +57,8 @@ import os
 file_to_save = os.path.join('Analysis', 'election_analysis.txt')
 
 # using the with statement open the file as a text file.
-with open(file_to_save, 'a') as outfile:
+with open(file_to_save, 'w') as outfile:
      # write some data to the file
-     outfile.write('welcome to Dallas, TX.\n')
+     outfile.write('Counties in the Election\n')
+     outfile.write('----------------------------\n')
      outfile.write('Arapahoes\nDenver\nJefferson\n')
