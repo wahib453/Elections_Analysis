@@ -29,7 +29,7 @@ import os
 file_to_load = os.path.join('Resources', 'election_results.csv')
 
 # open the election results and read the file.
-with open(file_to_load) as election_data:
+with open(file_to_load, 'r') as election_data:
      # Print the file
      print(election_data)
 
@@ -41,4 +41,23 @@ import os
 # create a filename variable to a direct or indirect path to the file.
 file_to_save = os.path.join('Analysis', 'election_analysis.txt')
 # using the open() function with the "w" mode we will write data to the file.
-open(file_to_save, 'w')
+outfile = open(file_to_save, 'w')
+
+# write some data to the file
+outfile.write('Hello world.')
+
+# Close the file
+outfile.close()
+
+# Alternatively, using "with" statement 
+import csv
+import os
+
+#create a filename variable to a direct or indirect path to the file.
+file_to_save = os.path.join('Analysis', 'election_analysis.txt')
+
+# using the with statement open the file as a text file.
+with open(file_to_save, 'a') as outfile:
+     # write some data to the file
+     outfile.write(' welcome to Dallas, TX.')
+     outfile.write(' Arapahoes, Denver, Jefferson.')
