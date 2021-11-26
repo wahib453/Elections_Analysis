@@ -151,10 +151,10 @@ for candidate_name in candidate_votes:
 #print(f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
 
 #winning_candidate_summary = (
-     f"------------------------\n"
-     f"Winner: {winning_candidate}\n"
-     f"winning percentage: {winning_percentage:.1f}%\n"
-     f"------------------------\n")
+     #f"------------------------\n"
+     #f"Winner: {winning_candidate}\n"
+     #f"winning percentage: {winning_percentage:.1f}%\n"
+     #f"------------------------\n")
 #print(winning_candidate_summary)
 
 # print the winning_count
@@ -167,13 +167,13 @@ for candidate_name in candidate_votes:
 #print(winning_candidate)
        
 # print the total votes
-print(total_votes)
+#print(total_votes)
 
 # Print the candidate options
-print(candidate_options)
+#print(candidate_options)
 
 # Print the candidate vote dictionary.
-print(candidate_votes)
+#print(candidate_votes)
 
 # Print the candidate name and percentage of votes.
 #print(f"{candidate_name}: received {float(votes) / float(total_votes) * 100:.1f}% of the vote.")
