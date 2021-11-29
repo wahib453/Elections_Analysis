@@ -2,3 +2,11 @@ Election Results
 ----------------------
 total votes: 369,711
 ----------------------
+Jefferson county received 10.51 %
+Denver county received 82.78 %
+Arapahoe county received 6.71 %
+-------------------------
+County with the highest turnout: Denver
+Highest turnout vote count: 306,055
+Percentage of the county with the highest turnout: 82.78%
+-------------------------
