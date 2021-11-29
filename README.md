@@ -56,4 +56,4 @@ The additional analysis of the election shows that:
   - Jefferson county received 10.51% of the total votes.
   - Denver county received 82.78% of the total votes.
   - Arapahoe county received 6.71% of the total votes.
-- Denver county has the highest voters turnout
+- Denver county has the highest voters turnout.
