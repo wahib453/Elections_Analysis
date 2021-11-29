@@ -68,7 +68,7 @@ with open(file_to_save, 'w') as text_file:
         #
         
         #
-        county_results = (f'{county} county received {percentage_votes:.2f} %\n')
+        county_results = (f'{county} county received {percentage_votes:.2f} % ({vote:,}) votes\n')
         #
         print(county_results)
         #
